@@ -192,7 +192,7 @@ def test_inference(model, raw_path, device, h=1848, w=2724):
 # --- 4. 主程序入口 ---
 if __name__ == "__main__":
 
-    mode ="train"
+    mode ="test"
 
     torch.backends.cudnn.benchmark = True
     # 检查设备
